@@ -1,0 +1,6 @@
+Rails.application.configure do
+    # ... other configurations ...
+    config.eager_load = false
+    # ... other configurations ...
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
+end
